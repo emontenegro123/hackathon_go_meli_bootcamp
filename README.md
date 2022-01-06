@@ -1,1 +1,1 @@
-# hackathon_go_meli_bootcamp
+# HackthonGo
