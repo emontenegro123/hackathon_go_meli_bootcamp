@@ -1,20 +1,20 @@
-/* Desafío 
-En el sistema de ventas de Fantasy Products, se perdieron los datos de la base de datos, pero alguien antes de que 
-se rompiera pudo descargar unos archivos .txt que hacen referencia a las tablas que se borraron (tienen algunas 
+/* Desafío
+En el sistema de ventas de Fantasy Products, se perdieron los datos de la base de datos, pero alguien antes de que
+se rompiera pudo descargar unos archivos .txt que hacen referencia a las tablas que se borraron (tienen algunas
 cosillas que hay que ver y acomodar, pero están los datos)
 
-Se puede observar en el repositorio de GitHub dentro de la carpeta data que hay 4 archivos, es decir, 
+Se puede observar en el repositorio de GitHub dentro de la carpeta data que hay 4 archivos, es decir,
 4 tablas (sales.txt, products.txt, invoices.txt, customers.txt), cada uno de ellos tiene los registros de dicha tabla.
 
 Se sabe que los campos y el orden de cada tabla son:
 
-sales.txt 💸 id, id_product, id_invoice, quantity						
-products.txt 🛒 id, description, price							
-invoices.txt 🧾 id, datetime, id_customer, total						
+sales.txt 💸 id, id_product, id_invoice, quantity
+products.txt 🛒 id, description, price
+invoices.txt 🧾 id, datetime, id_customer, total
 customers.txt 👨‍💼 id, last_name, first_name, condition
 
 Objetivos
-Como se habrá dado cuenta, la tabla de facturas, perdió el dato de total, por lo tanto es necesario que usted 
+Como se habrá dado cuenta, la tabla de facturas, perdió el dato de total, por lo tanto es necesario que usted
 pueda recalcular con los datos que dispone entre sales, invoices y products.
 
 Escribir una API que pueda:
@@ -57,7 +57,7 @@ Flaherty                                 Stavro
 Kaliszewski                              Norby
 Pleat                                    Ajay
 
- */
+*/
 
 package main
 
